@@ -63,3 +63,16 @@
   border: 1px solid #0F1626;
   color: #0F1626;
 }
+.logo__mobile{
+  display: none;
+}
+
+@media(max-width: 600px){
+  .container__header .logo__mobile{
+    display: block;
+    height: 56px;
+  }
+  .container__header ul li{
+    display: none;
+  }
+}

@@ -72,3 +72,14 @@ footer {
     text-align: center;
   }
 }
+
+@media(max-width: 700px){
+  footer{
+    background: linear-gradient(47deg, #f5de5f 0%, #f6d864 13.09%, #f69867 19.73%, #bf59bc 32.81%, #a538f7 48.2%, #8a16df 74.72%, #8011d8 100%)
+  }
+  .footer__bottom{
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
