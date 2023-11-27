@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+*,html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+ul{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}
